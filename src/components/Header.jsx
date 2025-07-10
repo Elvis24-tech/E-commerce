@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            ReactShop
+            Shop With Us
           </Link>
           <nav className="nav">
             <Link to="/">Home</Link>
