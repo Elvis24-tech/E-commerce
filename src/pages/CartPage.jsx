@@ -17,7 +17,7 @@ const CartPage = () => {
     return (
       <div className="page-container">
         <div className="container">
-          <h1 className="page-title">Your Cart is Empty</h1>
+          <h1 className="page-title">Your Cart is Empty!</h1>
         </div>
       </div>
     );
