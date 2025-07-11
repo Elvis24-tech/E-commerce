@@ -39,7 +39,6 @@ img {
   display: block;
 }
 
-/* --- 2. KEYFRAME ANIMATIONS --- */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
@@ -51,8 +50,6 @@ img {
   100% { box-shadow: 0 0 5px var(--accent-color-end); }
 }
 
-
-/* --- 3. LAYOUT & UTILITIES --- */
 .app {
   display: flex;
   flex-direction: column;
@@ -85,8 +82,6 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-
-/* --- 4. HEADER & NAVIGATION (Glassmorphism Effect) --- */
 .header {
   background-color: rgba(22, 27, 34, 0.8);
   backdrop-filter: blur(10px);
@@ -164,8 +159,6 @@ img {
   border-top: 1px solid var(--border-color);
 }
 
-
-/* --- 6. BUTTONS --- */
 .add-to-cart-btn, .checkout-btn, .submit-product-btn {
   background: var(--accent-gradient);
   color: white;
@@ -198,8 +191,6 @@ img {
   background: #218838;
 }
 
-
-/* --- 7. PRODUCT GRID & CARDS --- */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -254,7 +245,6 @@ img {
   margin-bottom: 1rem;
 }
 
-/* --- 8. PRODUCT DETAIL PAGE --- */
 .product-detail-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -295,7 +285,6 @@ img {
   max-width: 300px;
 }
 
-/* --- 9. CART PAGE --- */
 .cart-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -360,7 +349,6 @@ img {
   top: 140px;
 }
 
-/* --- 10. ADD PRODUCT FORM --- */
 .add-product-form {
   max-width: 600px;
   margin: 0 auto;
@@ -405,7 +393,6 @@ img {
   box-shadow: 0 0 10px rgba(60, 195, 179, 0.3);
 }
 
-/* --- 11. RESPONSIVE DESIGN --- */
 @media (max-width: 992px) {
   .product-detail-layout, .cart-content {
     grid-template-columns: 1fr;
