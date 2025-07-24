@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <p>© {new Date().getFullYear()} ReactShop. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Shop With Us. All rights reserved.</p>
       </div>
     </footer>
   );
